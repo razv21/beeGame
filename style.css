@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body{
+    background-color: #56baed;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+#mainContainer{
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 41px;
+    box-shadow: 0 30px 60px 0 rgb(0 0 0 / 30%);
+    background-color: white;
+}
+
+.pageTitle{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+input[type = "text"]{
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 40px;
+}
+
+input[type = "button"]{
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-top: 40px;
+   
+}
+
+.beeHealth{
+    display: inline-block;
+    width: 200px;
+    margin-left: 38px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="beeGame.js"></script>
+    <link rel="stylesheet" href = "style.css"></style>
+</head>
+<body>
+
+    <div id = "mainContainer">
+        <div class = "pageTitle">Play the Bee Game</div>
+        <input type = "text" placeholder="Type your name here">
+        
+        <div>
+            <span class = "beeHealth">  
+                Queen: 
+                <span id="queenNo">1</span> 
+            </span>  
+           Health: <span id="queenHealth">100</span>   
+        </div>
+        <div>
+            <span class = "beeHealth"> 
+                Worker:
+                <span id="workerNo" class = "beeLabel">5</span>
+            </span>
+           Health of current worker: <span id="workerHealth">75</span>
+        </div>
+        <div>
+            <span class = "beeHealth"> 
+                Drone:
+                <span id="droneNo" class = "beeLabel">8</span>
+            </span> 
+           Health of current drone: <span id="droneHealth">50</span> 
+        </div>
+        <input type="button" value="Hit" onclick="hit(allBees);">
+    </div>
+</body>
+</html>
